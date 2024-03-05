@@ -1,0 +1,149 @@
+html {
+    scroll-behavior: smooth;
+    scrollbar-color: black lightgray;
+    scrollbar-width: thin;
+}
+
+* {
+    margin: 0;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: lightgray;
+}
+
+/* inputs */
+
+.div {
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;
+    background: white;
+    border: 2px solid black;
+    box-shadow: 5px 10px 5px black;
+}
+
+.label {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid black;
+    height: 30px;
+    width: 300px;
+    margin-left: 85px;
+}
+
+.label2 {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input2 {
+    border: none;
+    border-bottom: 1px solid black;
+    height: 30px;
+    width: 300px;
+}
+
+.label3 {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input3 {
+    border: none;
+    border-bottom: 1px solid black;
+    height: 30px;
+    width: 300px;
+    margin-left: 79px;
+}
+
+.enter {
+    cursor: pointer;
+    height: 30px;
+    width: 150px;
+    padding: 5px 25px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 1px solid blue;
+    background: blue;
+    color: aliceblue;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.enter:hover {
+    opacity: 0.5;
+}
+
+.clear {
+    cursor: pointer;
+    height: 30px;
+    width: 150px;
+    padding: 5px 25px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 1px solid red;
+    background: red;
+    color: aliceblue;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.clear:hover {
+    opacity: 0.5;
+}
+
+.table {
+    height: auto;
+    width: 1200px;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+.edit {
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    padding: 5px 25px;
+    border: 1px solid blue;
+    background: blue;
+    color: aliceblue;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+
+}
+
+.edit:hover {
+    opacity: 0.5;
+}
+
+.del {
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    padding: 5px 25px;
+    border: 1px solid red;
+    background: red;
+    color: aliceblue;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+
+}
+
+.del:hover {
+    opacity: 0.5;
+}
